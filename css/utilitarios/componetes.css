@@ -16,8 +16,12 @@
   font: 500 1.125rem/1.5 "Montserrat", sans-serif;
 }
 
-.botao:hover {
-  margin-right: -3%;
-  /*margin-top: -2%;*/
-  transform: scale(1.1);
+.botao:hover
+{
+        box-shadow:
+                3px 1px #444444,
+                2px 2px #444444,
+                3px 3px #444444;
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
 }

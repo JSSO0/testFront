@@ -11,7 +11,7 @@ p {
 }
 
 img {
-  max-width: 100%;
+ /* max-width: auto;*/
   display: block;
   height: auto;
 }
